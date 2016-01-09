@@ -1,0 +1,23 @@
+html,
+body {
+  background-color: #333;
+  background-image: url("../images/injustice.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 3px 6px rgba(0,0,0,.5);
+}
+.cover-heading {
+	font-family: 'Cinzel', serif; 
+
+}
+.btn {
+	background-color: rgba(192,192,192,0.3);
+	border: none;
+	text-transform: uppercase;
+	font-family: Times, serif;
+	font-weight: 300;
+}
