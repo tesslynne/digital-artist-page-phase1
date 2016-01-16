@@ -4,3 +4,18 @@ body {
     color: #FFF;
     font-family: Times, serif;
 }
+
+.bio {
+	padding: 30px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+.bio img {
+	margin: 15px 15px 20px 25px;
+	float: left;
+}
+
+.bio p {
+	margin: 20px;
+}
