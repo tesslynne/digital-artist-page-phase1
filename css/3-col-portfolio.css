@@ -21,6 +21,19 @@ footer {
 
 /*custom styles for the gallery pages*/
 
+/*modal styling and video styling*/
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+      -o-transition: o-transform 0.3s ease-out;
+        transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+
+}
+
 .modal-dialog {
 	width: 78%;
 	height: 75%;
@@ -35,4 +48,7 @@ footer {
     background: -moz-linear-gradient(black, gray, black); /* For Firefox 3.6 to 15 */
     background: linear-gradient(black, gray, black); /* Standard syntax (must be last) */
 
+}
+.trailers {
+    margin: 0 auto;
 }
